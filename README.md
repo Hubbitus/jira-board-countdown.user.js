@@ -27,7 +27,7 @@ That is pretty simple, just few highlights:
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 
 ## Script installation
-Just follow the [link](Installation [link](https://github.com/Hubbitus/jira-board-countdown.user.js/raw/master/Jira-board-countdown.user.js).
+Just follow the [link](https://github.com/Hubbitus/jira-board-countdown.user.js/raw/master/Jira-board-countdown.user.js).
 
 > **TIP** Script configured for auto-updates, just allow that in extension settings!
 
