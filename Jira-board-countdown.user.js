@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Add header countdown for the dayly meeting
 // @author       Pavel Alexeev <Pahan@Hubbitus.info>
-// @include      /^https?:\/\/jira\..+?\/browse\/[A-Z0-9]+-\d+$/
+// @include      /^https?:\/\/jira\..+?\/secure\/RapidBoard\.jspa
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=hubbitus.info
 // @grant        GM_addStyle
 // @credits      JavaScript and CSS idea of counter borrowed from https://www.cssscript.com/circular-countdown-timer-javascript-css3/
@@ -13,13 +13,13 @@
 // ==/UserScript==
 
 /**
- * Some content appeared by AJAX loading, after document ready event.
- * So, we need wait content when it appeared
- * By https://stackoverflow.com/questions/16149431/make-function-wait-until-element-exists/53269990#53269990
- **/
+* Some content appeared by AJAX loading, after document ready event.
+* So, we need wait content when it appeared
+* By https://stackoverflow.com/questions/16149431/make-function-wait-until-element-exists/53269990#53269990
+**/
 async function waitElement(selector) {
     while ( document.querySelector(selector) === null) {
-        await new Promise( resolve => requestAnimationFrame(resolve) )
+      await new Promise( resolve => requestAnimationFrame(resolve) )
     }
     return document.querySelector(selector);
 };
